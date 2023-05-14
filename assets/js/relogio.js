@@ -1,9 +1,9 @@
 setInterval(() => {
-    d = new Date(); //object of date()
+    d = new Date();
     hr = d.getHours();
     min = d.getMinutes();
     sec = d.getSeconds();
-    hr_rotation = 30 * hr + min / 2; //converting current time
+    hr_rotation = 30 * hr + min / 2; 
     min_rotation = 6 * min;
     sec_rotation = 6 * sec;
   
